@@ -1,0 +1,270 @@
+{
+  "repo_id": "inclusionAI/Realtime-Venus",
+  "data_commit": "007097ab5d304ff1fff154bedf415b088717ec8d",
+  "files": {
+    "data/HEARTBEAT_Challenge/track1/task1/dev/part-00000.bin": {
+      "bytes": 590237305,
+      "sha256": "83ebe3a0676fb84cf53fb482ff5d551f3ef34b75cc40573c2442c73343d7e483"
+    },
+    "data/HEARTBEAT_Challenge/track1/task1/train/part-00000.bin": {
+      "bytes": 9985236480,
+      "sha256": "ebbc3af4f3f9f4fee9e86f50380c059108e5d92b7aeaab2c3a89f8e87037a414"
+    },
+    "data/HEARTBEAT_Challenge/track1/task1/train/part-00001.bin": {
+      "bytes": 1131649150,
+      "sha256": "49529086ab8e161fe60cee8bcafa44b68da20375e9e85fe778fb151aba9223d5"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/dev/dynamic/part-00000.bin": {
+      "bytes": 241192870,
+      "sha256": "62f2b17e5ffc51748ef21a62ffbb23996fb0175273ff6f1de869e8b5199ff5eb"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/dev/static/part-00000.bin": {
+      "bytes": 242014273,
+      "sha256": "b2db17d537702bd446c231677460afded9eceae4f4b98f2239864cdd17f4e5a2"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00000.bin": {
+      "bytes": 9988300952,
+      "sha256": "bdb6fd81f8f7840b62847e7a4c9c1c7ded5e0a56b20e7235b5acb4460cf579a0"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00001.bin": {
+      "bytes": 9987385423,
+      "sha256": "e7ee02cc1af6920a0464ab739c87f946d6b638537a8f5c7ca2ef37ae2be4fb54"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00002.bin": {
+      "bytes": 9984722380,
+      "sha256": "1b09659b9cf337b9f73f2857f578c0618c491cf2f62fa1abb4071d88e435e5f1"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00003.bin": {
+      "bytes": 9987893059,
+      "sha256": "fe27a25038467c219926efe0f4621042b2bcee364979d15d4a75372a0bd9e522"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00004.bin": {
+      "bytes": 9988224505,
+      "sha256": "aeecee3688f122e666d27abe47454f0150d3bd693f7f9f198a419257c75f5dcd"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00005.bin": {
+      "bytes": 9985422666,
+      "sha256": "270b56386c115ef5a4e7e00cdfc3c14b733d26fa2028b2ca41b59e567a57b84e"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00006.bin": {
+      "bytes": 9987046359,
+      "sha256": "b1f65e589ff2dae4e50b33187bfa13e73dac429debf10dc1b6dcddea6c2a99c5"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00007.bin": {
+      "bytes": 9990139153,
+      "sha256": "ed17a7c571b49d5510e7b35e63e0f88cc3fbb9f8f1944e5e8101005dabe9c80c"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00008.bin": {
+      "bytes": 9995404283,
+      "sha256": "845cc6c36f89b9338c13c5897de66452805e7c293d4745fbea7ebcbfcb94b36b"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00009.bin": {
+      "bytes": 9997823590,
+      "sha256": "8a982fbb03529158e5723bb37042efa21974238e3c864dc7243347ec694e8d08"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00010.bin": {
+      "bytes": 9994024064,
+      "sha256": "9c3eca34723b7ed88dd9e2af70134ccc3f92db081faa01b725df785ee0a83863"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00011.bin": {
+      "bytes": 9998027160,
+      "sha256": "9a3c5744a69cdb0471e5c1d3c781c64023f32986e5e253199f972e37c1156702"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00012.bin": {
+      "bytes": 9996042832,
+      "sha256": "08ce6cf30330f9bc82873f2d7b0ca7b5f18496b4923d93fb737ac8c61fa61bf4"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00013.bin": {
+      "bytes": 9994462900,
+      "sha256": "14add82fa35ff85979097bfcb42d5d1b325e6043430be0b00ececdbf673f4e90"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00014.bin": {
+      "bytes": 9998062185,
+      "sha256": "aa9fe72846cecf28514875dcd4ea58965db618600a56ed5f817b9a23ecc7e516"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00015.bin": {
+      "bytes": 9997153093,
+      "sha256": "6bf3fd1beb208e13484bae26ee66ec35f9a5efb5035ad23fb0254195c4ae070f"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00016.bin": {
+      "bytes": 9995755264,
+      "sha256": "73f7b4defa03bd7a6c1ffcf54e3919c9659323d08369542efef489cc1a64c7da"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00017.bin": {
+      "bytes": 9995386703,
+      "sha256": "a775de63d4b8afa386707ad675de708c1226c5ff882772328f99b95ddb8b3680"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00018.bin": {
+      "bytes": 9994955652,
+      "sha256": "0be2a1669de05233b2dff882045617680e422705b0783597e56a0857a0b7be75"
+    },
+    "data/HEARTBEAT_Challenge/track1/task2/train/part-00019.bin": {
+      "bytes": 6533257414,
+      "sha256": "569b494735ba3ccb3bbf3280f8cbae8631ecb1c0ecf2ac25ec4977bfa3cdd1d2"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/dev/part-00000.bin": {
+      "bytes": 9282733388,
+      "sha256": "2e2cd9087c99754fcfb6636b79bbf3636cfd32122f176ba4725c51c282013619"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00000.bin": {
+      "bytes": 9997695097,
+      "sha256": "de4e73d1c0b16db587d8befdb49cc4574c81632930bd1f3f28803738342fde7e"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00001.bin": {
+      "bytes": 9988508275,
+      "sha256": "bc33406cc3cdca8ff431dcfa419831e3ae9a9c5d34888e15dab9773decf27af8"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00002.bin": {
+      "bytes": 9987384706,
+      "sha256": "417650b3ec1db04c2473d198ebfe2a05e16a0309ef379c9f8350e396cfc790ff"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00003.bin": {
+      "bytes": 9988819670,
+      "sha256": "3873a1d4f6b5b57cf48a699be863f8c553863f8ecb9114c61fb24255657b6415"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00004.bin": {
+      "bytes": 9985638447,
+      "sha256": "946bae2e4fe683ebe2ecff28bfac0cad736a0fbf77f7a021807476def330fac9"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00005.bin": {
+      "bytes": 9988816284,
+      "sha256": "5644d1795b4c73e313ed477645faa1e66cfc74592f7e124ef9bec9966be0a0fa"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00006.bin": {
+      "bytes": 9992072628,
+      "sha256": "cdb4396b97d59aef36333537c5acb89bffbcce8bb042d96e3249ee7b51ff85e4"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00007.bin": {
+      "bytes": 9992925631,
+      "sha256": "899c89236059a345f6f3e776ece94a6da9df5953264696dc81b31592ba986de7"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00008.bin": {
+      "bytes": 9997082112,
+      "sha256": "1f0e9d22bd876ddb0d47558a33c46a7c868e52ac3b686fdebdc1a2295affedd5"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00009.bin": {
+      "bytes": 9989496150,
+      "sha256": "8b73541d080dd38c93cf501d2fb928d60d3b6cfa67f4c427b9cf50a29047d970"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00010.bin": {
+      "bytes": 9990116779,
+      "sha256": "ad5133179c464b5c5e71726079bb5277cbcf5f2f0c36faf0a6aaf44f73073836"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00011.bin": {
+      "bytes": 9994404373,
+      "sha256": "e809a427428d3e1c6dd0313b4fc41b62308f71dbd890f88169d337c07cfb3705"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00012.bin": {
+      "bytes": 9986183359,
+      "sha256": "d692156d331aef9858c240a304cd33750a18f4da572a8f395431f5e5d09d88bc"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00013.bin": {
+      "bytes": 9997165497,
+      "sha256": "03e03ed602b583cef8d75b442ca09216044499e614c6d6219ffd8ce283eb54e5"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00014.bin": {
+      "bytes": 9985320570,
+      "sha256": "82dad26cddb453fee51a8f35788b6a7079e46eb5db14b391d8b68655070c2dd2"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00015.bin": {
+      "bytes": 9990745049,
+      "sha256": "5d451c9b942e8f799635b3b5b13b0d78da259bfdc51fdb727e68060377eec323"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00016.bin": {
+      "bytes": 9983409276,
+      "sha256": "258750b6148378f30bc6be6ac437993369d23762a58c6be8b95d4153ad72178d"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00017.bin": {
+      "bytes": 9988373592,
+      "sha256": "8fb4e735ea1821cf9ef49ea9d9d79818f8dfd3a7c493cb0b2f84be202a85b8b8"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00018.bin": {
+      "bytes": 9985618871,
+      "sha256": "ac5dc0e092491b070a097bc3b2176aea072d207f21d184575d968d0f9598bc87"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00019.bin": {
+      "bytes": 9991625156,
+      "sha256": "d44a77f170c08f546faf05b3cadfc789b23c3aa764ebe90e08e72179919a53f7"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00020.bin": {
+      "bytes": 9998612628,
+      "sha256": "d4aedfb4c7f8fe1574ab9849f6d689d059147f07b39f9a5318fc4a2042c399d4"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00021.bin": {
+      "bytes": 9988665509,
+      "sha256": "06ec8c080f9a238ca9932ddba53cdff5862899bd772dd7783cfd824273728e4a"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00022.bin": {
+      "bytes": 9984588333,
+      "sha256": "afdd9e2f182b93dd007595e60c2cfc997cdcd9b19095d60a087d59031a3efbf5"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00023.bin": {
+      "bytes": 9988191317,
+      "sha256": "0527618b2e84bd399f37456023485500a622cd2ab4b162f81a6558b6c2a469f7"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00024.bin": {
+      "bytes": 9989855066,
+      "sha256": "897306015182974006d67d660e437e7d285ec59f49411c3fdd1ed16dc2b63397"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00025.bin": {
+      "bytes": 9988796369,
+      "sha256": "aaec02078d8ee1c423027178fd7fef63e7a3bfa84d872dd7ec305e0dbb13ae5e"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00026.bin": {
+      "bytes": 9996816867,
+      "sha256": "c107711c1b88a9e52cf70771fd0a58ceb8b17ae1b12b4b7612c9e65149f1dba9"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00027.bin": {
+      "bytes": 9998811356,
+      "sha256": "e8226cecf7cfe92fd76653fc1be485c7b4c71762e20a1ddb5c44a1ac3a6b15b4"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00028.bin": {
+      "bytes": 9994132973,
+      "sha256": "8465555166e31b09ae31d8242c7c393c6b5767fc16d62b84405518e574630049"
+    },
+    "data/HEARTBEAT_Challenge/track2/task1_video/train/part-00029.bin": {
+      "bytes": 4582462653,
+      "sha256": "3658a232e9ed944fb03dbf727e08dee4032cf2ddc89f52c3a2c089b40923e2ed"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/dev/part-00000.bin": {
+      "bytes": 3532286215,
+      "sha256": "ddc5dba2d96c958665919f5421d04851bf731120ecd39bf392523a676491db49"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00000.bin": {
+      "bytes": 9994387110,
+      "sha256": "3c62b27de449416a9bbabac99e8c08220aff0019b8a788c713a20565f83d82fd"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00001.bin": {
+      "bytes": 9989573274,
+      "sha256": "6801362740142d45ba9d1eedea2004f0bdcd27285d0cfcab6816c1f5410492f2"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00002.bin": {
+      "bytes": 9992439199,
+      "sha256": "8d8d5cd96a4912279624daeba4ac52dd3a84b084ab650024345a079cf5dac15c"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00003.bin": {
+      "bytes": 9995532976,
+      "sha256": "4f316cab6e7c89df006be1bb413c128a6a9350c297ba3cd1b138629f39fe74c8"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00004.bin": {
+      "bytes": 9998394981,
+      "sha256": "e3f390db3df2c8f65b5e522cad27b4cea3ec27e2e5ea87b60b37c1352a8c77c8"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00005.bin": {
+      "bytes": 9993245909,
+      "sha256": "bb23733ae5c0885a584ecaa71d363451e46885deafee8f2a35835df533f6fc96"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00006.bin": {
+      "bytes": 9987263443,
+      "sha256": "a269abb76156f86809879d79b29f6b00391694631540dc865ceb17935f7f402a"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00007.bin": {
+      "bytes": 9986794424,
+      "sha256": "5b689fc45f12baf81106e205ad5582061aa9c2ce1bd0e89e9b1dc0d373a26038"
+    },
+    "data/HEARTBEAT_Challenge/track2/task2_audio/train/part-00008.bin": {
+      "bytes": 4181746515,
+      "sha256": "a58ff2d2ae67a63182e0e030357501f313c10fb56f4c8087372a7ecaf1f9ca83"
+    }
+  }
+}

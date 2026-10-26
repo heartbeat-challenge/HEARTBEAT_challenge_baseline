@@ -1,0 +1,4 @@
+huggingface_hub>=1.0,<2
+requests>=2.32,<3
+filelock>=3.13
+tqdm>=4.66

@@ -1,0 +1,8 @@
+# Overlay for the PPU image. Install with --target and --no-deps.
+transformers==4.57.6
+tokenizers==0.22.2
+huggingface-hub==0.36.2
+datasets==3.6.0
+dill==0.3.8
+multiprocess==0.70.16
+diffusers==0.35.2

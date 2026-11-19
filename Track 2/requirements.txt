@@ -1,0 +1,23 @@
+# Run `python -m pip install -r requirements.txt` from the Track 2 directory.
+# For a specific CUDA build, install this PyTorch trio from its CUDA wheel
+# index first. The version pins also accept matching +cu and +cpu builds.
+-e ..
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+transformers==4.57.6
+accelerate==1.11.0
+peft==0.18.1
+datasets==4.0.0
+trl==0.24.0
+torchdata==0.11.0
+librosa==0.10.2.post1
+numpy==2.0.1
+pandas==2.2.3
+pyarrow==26.0.1
+soundfile==0.13.1
+Pillow>=10
+PyYAML>=6,<7
+zarr==2.18.7
+numcodecs==0.15.1
+requests>=2.32,<3

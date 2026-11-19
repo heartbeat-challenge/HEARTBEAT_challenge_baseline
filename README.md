@@ -2,7 +2,7 @@
 
 # ICASSP 2027 HEARTBEAT Challenge
 
-**Data access and preparation**
+**Challenge datasets and baselines**
 
 <a href="https://heartbeat-challenge.github.io/"><img src="https://img.shields.io/badge/HEARTBEAT-Challenge_Website-2563EB?style=for-the-badge" alt="HEARTBEAT Challenge Website"></a>
 <a href="https://huggingface.co/inclusionAI/Realtime-Venus/tree/main/data/HEARTBEAT_Challenge"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E?style=for-the-badge&amp;logo=huggingface&amp;logoColor=FFD21E" alt="Hugging Face Dataset"></a>
@@ -14,7 +14,18 @@
 
 HEARTBEAT studies a central question in real-time interaction: **when should a system respond, and what should it say?** The challenge evaluates systems that listen to continuous audio or observe continuous audio-visual streams, understand the evolving context, and respond at the appropriate moment.
 
-This repository helps participants prepare the challenge data for their own systems. Select a track, task and split, then use a single command to download the corresponding data and export it as **Parquet** or **JSON with original audio/video files**. A small-sample mode lets you inspect the data before downloading a full partition.
+This repository provides data tools and training and evaluation baselines for both tracks. Select a track, task and split, then use a single command to download the corresponding data and export it as **Parquet** or **JSON with original audio/video files**. A small-sample mode lets you inspect the data before downloading a full partition.
+
+## Baselines
+
+| Track | Task | Baseline model | Training and Dev evaluation |
+|---|---|---|---|
+| [Track I](Track%201/README.md) | Task 1 · Offline audio multiple choice | Venus Audio | [Train](Track%201/Task_1/README.md#training) · [Evaluate](Track%201/Task_1/README.md#evaluation) |
+| [Track I](Track%201/README.md) | Task 2 · Full-duplex spoken interaction | Venus Audio | [Train](Track%201/Task_2/README.md#training) · [Evaluate](Track%201/Task_2/README.md#evaluation) |
+| [Track II](Track%202/README.md) | Task 1 · Proactive responses to audiovisual events | Venus Omni | [Train](Track%202/README.md#venus-omni) · [Evaluate](Track%202/README.md#evaluation) |
+| [Track II](Track%202/README.md) | Task 2 · Proactive responses to audio events | Venus Audio | [Train](Track%202/README.md#venus-audio) · [Evaluate](Track%202/README.md#evaluation) |
+
+Run data download commands from the repository root. For training and evaluation, use the working directory and dependencies in the task guide.
 
 ## Challenge tracks
 

@@ -5,3 +5,27 @@ downloads/
 *.incomplete
 .pytest_cache/
 .DS_Store
+
+# Track 2 training and evaluation
+/Track 2/**/.venv-*/
+/Track 2/eval_data/
+/Track 2/eval_outputs/
+/Track 2/**/*.py[cod]
+/Track 2/**/*.egg-info/
+/Track 2/**/.env
+/Track 2/**/.env.*
+/Track 2/data/
+/Track 2/models/
+/Track 2/prepared/
+/Track 2/outputs/
+/Track 2/logs/
+/Track 2/.cache/
+/Track 2/dist/
+/Track 2/build/
+/Track 2/**/*.parquet
+/Track 2/**/*.safetensors
+/Track 2/**/*.pt
+/Track 2/**/*.bin
+/Track 2/**/*.wav
+/Track 2/**/*.mp4
+/Track 2/**/*.log

@@ -2,7 +2,7 @@
 
 # ICASSP 2027 HEARTBEAT Challenge
 
-**数据获取与使用指南**
+**比赛数据与基线模型**
 
 <a href="https://heartbeat-challenge.github.io/"><img src="https://img.shields.io/badge/HEARTBEAT-Challenge_Website-2563EB?style=for-the-badge" alt="HEARTBEAT Challenge Website"></a>
 <a href="https://huggingface.co/inclusionAI/Realtime-Venus/tree/main/data/HEARTBEAT_Challenge"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E?style=for-the-badge&amp;logo=huggingface&amp;logoColor=FFD21E" alt="Hugging Face Dataset"></a>
@@ -14,7 +14,18 @@
 
 HEARTBEAT 关注实时交互中的核心问题：**系统应该何时回应，以及回应什么？** 本次 Challenge 面向连续音频与音视频输入，评测系统持续理解上下文、识别交互时机并作出适当回应的能力。
 
-本仓库为参赛者提供数据获取与准备工具。选择赛道、任务和数据划分后，通过一条命令即可下载对应数据，并导出为 **Parquet** 或 **JSON＋原始音视频文件**。也可以先读取少量样本，了解字段与媒体内容，再下载完整分区用于实验。
+本仓库提供两个赛道的数据工具、训练代码和开发集评测代码。选择赛道、任务和数据划分后，通过一条命令即可下载对应数据，并导出为 **Parquet** 或 **JSON＋原始音视频文件**。也可以先读取少量样本，了解字段与媒体内容，再下载完整分区用于实验。
+
+## 训练与评测基线
+
+| 赛道 | 任务 | 基线模型 | 训练与开发集评测 |
+|---|---|---|---|
+| [Track I](Track%201/README_zh.md) | Task 1 · 离线音频选择题 | Venus Audio | [训练](Track%201/Task_1/README_zh.md#训练) · [评测](Track%201/Task_1/README_zh.md#评测) |
+| [Track I](Track%201/README_zh.md) | Task 2 · 全双工语音交互 | Venus Audio | [训练](Track%201/Task_2/README_zh.md#训练) · [评测](Track%201/Task_2/README_zh.md#评测) |
+| [Track II](Track%202/README_zh.md) | Task 1 · 音视频事件主动响应 | Venus Omni | [训练](Track%202/README_zh.md#venus-omni) · [评测](Track%202/README_zh.md#评测) |
+| [Track II](Track%202/README_zh.md) | Task 2 · 纯音频事件主动响应 | Venus Audio | [训练](Track%202/README_zh.md#venus-audio) · [评测](Track%202/README_zh.md#评测) |
+
+在仓库根目录运行数据下载命令。训练和评测请使用任务指南中指定的工作目录和依赖。
 
 ## 比赛赛道
 

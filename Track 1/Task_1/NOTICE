@@ -1,0 +1,57 @@
+HEARTBEAT Track 2 Training Baselines
+
+This distribution includes the supplied Venus training implementation built on
+LLaMA-Factory. Original source-file copyright and license notices are retained.
+The bundled LICENSE is Apache License 2.0. Model weights and datasets are not
+included and are governed by their respective licenses.
+
+LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
+
+HEARTBEAT additions (2026): public Parquet conversion, task-specific training
+recipes, launch/cache isolation and documentation.
+Evaluation additions (2026): native Audio/Video stream replay, prediction logs,
+time-blind optional content judging, event matching and comparison tools.
+
+The following training files include HEARTBEAT compatibility changes:
+  Track 2/src/llamafactory/data/minicpmo.py
+  Track 2/src/llamafactory/model/adapter.py
+  Track 2/src/llamafactory/model/model_utils/minicpmo.py
+  Track 2/src/llamafactory/model/model_utils/visual.py
+  Track 2/src/llamafactory/model/patcher.py
+  Track 2/src/llamafactory/train/sft/trainer.py
+  Track 2/src/llamafactory/train/sft/workflow.py
+
+Changes enable the released Venus model type, fail-fast data handling and
+BF16-compatible chunked loss.
+
+The event matcher, response parser, task scoring rules and judge prompt include
+code adapted from OmniPro.
+https://github.com/RuixiangZhao/OmniPro
+
+Upstream file checksums (SHA-256):
+  888c7b47cd5a822e1a6a9c15dc26d246f56f53be81f8e6cdfefd7d2ab52ff947  utils/online_parser.py
+  7d7d65b38161ea2385e3589495c801fe736673a500afb7a54d1be77630d850cd  metrics/online/scorer.py
+  2fb5035f67701c1b95a6d795de2ba126367200ff613c7a0ace4a2da125859340  metrics/llm_judge.py
+  5a29968bfee896b86c30cb8eae9cc7592fcbedb0416ff6306aa64fb47906dacc  LICENSE
+
+MIT License
+
+Copyright (c) 2026 OmniProact-Bench Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
